@@ -105,7 +105,7 @@ Date : 7 Febuary 2025
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-        <img src="./photoes/firefox_logo-only_RGB_120.png">
+        <img src="./images/firefox_logo-only_RGB_120.png">
     </header>
 
     <main>
@@ -124,22 +124,29 @@ Date : 7 Febuary 2025
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <source media="(max-width: 600px)" srcset=".\images\firefox_logo-only_RGB_120.png">
+          <img src="./images/firefox_logo-only_RGB.png" alt="a firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <source media="(max-width: 600px)" srcset=".\images\mozilla-dinosaur-head_120.png">
+          <img src="./images/mozilla-dinosaur-head.png" alt="a mozilla mozilla dinosaur head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <source media="(max-width: 600px)" srcset=".\images\firefox-addons_120.png">
+          <img src="./images/firefox-addons.jpg" alt="a firefox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src="./images/mdn.svg">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+            <source media="(max-width: 600px)" srcset=".\images\red-panda-portraity.png"">
+            <img src="./images/red-panda.jpg" alt="a red panda">
+        </picture>
       </div>
 
     </main>
