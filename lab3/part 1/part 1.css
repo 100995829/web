@@ -36,7 +36,9 @@ body {
     text-decoration: none;
   }
   
-  
+  li a {
+    color: #32cd32; 
+  }
 
   .dots {
     text-align: center;
