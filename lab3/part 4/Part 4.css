@@ -31,4 +31,21 @@ body {
     gap: 1px;
     align-items: start;
   }
- 
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
