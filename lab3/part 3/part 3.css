@@ -4,7 +4,9 @@ File :  Part 3.html
 Date : 20 Febuary 2025
 */
 
- {
+/* General setup */
+
+* {
     box-sizing: border-box;
   }
   
@@ -34,7 +36,8 @@ Date : 20 Febuary 2025
   footer {
     clear: both;
   }
-  eader, section, aside, nav, footer {
+  
+  header, section, aside, nav, footer {
     padding: 20px;
   }
   
@@ -145,21 +148,21 @@ h2 {
     text-decoration: none;
     display: block;
     padding: 10px;
-}
+  }
 
-nav ul li {
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px solid #844242;
-  background-color: #d68e8e;
-  transition: background-color 0.3s ease;
-}
+  nav ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #844242;
+    background-color: #d68e8e;
+    transition: background-color 0.3s ease;
+  }
 
-nav ul li:hover, nav ul li:focus {
-  background-color: #ddd;
-  
-}
+  nav ul li:hover, nav ul li:focus {
+    background-color: #ddd;
+    
+  }
 
-nav ul li:active {
-  background-color: #bbb;
-}
+  nav ul li:active {
+    background-color: #bbb;
+  }
