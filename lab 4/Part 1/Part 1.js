@@ -1,5 +1,6 @@
 /*
 Name : Harninsh Prajapati
+Name : Krish PAtel
 File : Part 1.js
 Date : 31 March 2025
 Purpose : assignment 4 part 1
