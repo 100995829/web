@@ -1,5 +1,5 @@
 /*
-Name :Krish Patel
+Name :Krish Patel8
 File : main.js
 Date : 1 April 2025
 Purpose : assignment 4 part 3
